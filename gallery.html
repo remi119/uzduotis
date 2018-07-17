@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pagrindinis</title>
+
+    <!--    Custom css-->
+    <link href="custom.css" rel="stylesheet">
+    <!--    Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+
+<body>
+   <div class="head-text">
+        <h1>H1-TEST</h1>
+       <p class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    </div>
+    
+    
+    <form id="upload-form">
+        <div class="file-namee">
+            <label>File name</label>
+            <input type="text" placeholder="Test" />  
+        </div>
+        <label class="comment-label">Description:</label>
+            <textarea cols="60" name="comment" form="description" placeholder="Alex"></textarea>
+    <div class="file-upload">
+        <label>Upload photo</label>
+      <div class="file-select">
+        <div class="file-select-button" id="fileName">BROWSE</div>
+          <div class="file-select-name" id="noFile">No file selected</div> 
+            <input type="file" name="chooseFile" id="chooseFile">
+      </div>
+    </div>
+    <div class="button-upload">
+        <button class="send-btn">UPLOAD</button>
+    </div>
+    </form>
+    
+    <section id="gallery">
+    
+     <div class="row">
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/boat.jpg" alt="Boat"/></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image" onclick="zuvis();"><img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" /></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"> <img class="img-show" src="/img/gallery/moon1.jpg" alt="Moon2" /></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/moon2.jpg" alt="Moon2"/></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/moon3.jpg" alt="Boat" /></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/moon4.jpg" alt="Moon" /></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/moon5.jpg" alt="Moon1"/></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <a href="index.html#image"><img class="img-show" src="/img/gallery/moon6.jpg" alt="Moon2" /></a>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+     </section>
+    <script src="main.js" ></script>
+</body>
+
+</html>

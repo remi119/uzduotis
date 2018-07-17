@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pagrindinis</title>
+
+    <!--    Custom css-->
+    <link href="custom.css" rel="stylesheet">
+    <!--    Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+
+<body>
+   <div class="head-text">
+        <h1>H1-TEST</h1>
+       <p class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    </div>
+    
+    <section id="image">
+      <button class="next" onclick="plusSlides(-1)">◄</button>
+      <button class="next1" onclick="plusSlides(1)">►</button>
+      <img class="img-size" src="img/gallery/boat.jpg" alt="moon"/>
+       <img class="img-size" src="img/gallery/moon.jpg" alt="moon"/> 
+       <img class="img-size" src="img/gallery/moon1.jpg" alt="moon"/>
+       <img class="img-size" src="img/gallery/moon2.jpg" alt="moon"/>
+       <img class="img-size" src="img/gallery/moon3.jpg" alt="moon"/> 
+       <img class="img-size" src="img/gallery/moon4.jpg" alt="moon"/>
+       <img class="img-size" src="img/gallery/moon5.jpg" alt="moon"/>
+       <img class="img-size" src="img/gallery/moon6.jpg" alt="moon"/>
+    </section>
+    
+    
+    <section id="comments">
+     <h3 class="h3-comments">Comments:</h3>
+     
+      <div class="container">
+           <img src="img/boy.jpg" alt="boy" class="img-comments" />
+               <h5 class="name">Jonas Jonaitis</h5>
+               <p class="comment"> sed do eiusmod tempor incididunt</p>
+        </div>
+      <br> 
+           <div>
+            <img src="img/girl.jpg" alt="boy" class="img-comments" />
+               <h5 class="name">Gintare Gintaryte</h5>
+               <p class="comment">Lorem ipsum dolor sit amet, consectetur </p>
+      </div>  
+    </section>
+    
+    <form id="form">
+     <div class="name-email">
+        <div class="column">
+            <label>Name</label>
+            <input type="text" placeholder="Alex" />  
+        </div>
+        <div class="column2">
+            <label>Email</label>
+            <input type="email"/>
+        </div>
+        
+        <label class="comment-label">Comment:</label>
+    <textarea cols="60" name="comment" form="usrform" placeholder="Alex"></textarea>
+    
+    <button class="send-btn">SEND</button>
+   
+    
+     </div>    
+    </form>
+    <script src="main.js" ></script>
+</body>
+
+</html>
