@@ -21,18 +21,18 @@
        <p class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
     </div>
     
-    <section id="image">
+    <div id="image">
       <button class="next" onclick="plusSlides(-1)">◄</button>
       <button class="next1" onclick="plusSlides(1)">►</button>
-      <img class="img-size" src="img/gallery/boat.jpg" alt="moon"/>
-       <img class="img-size" src="img/gallery/moon.jpg" alt="moon"/> 
-       <img class="img-size" src="img/gallery/moon1.jpg" alt="moon"/>
-       <img class="img-size" src="img/gallery/moon2.jpg" alt="moon"/>
-       <img class="img-size" src="img/gallery/moon3.jpg" alt="moon"/> 
-       <img class="img-size" src="img/gallery/moon4.jpg" alt="moon"/>
-       <img class="img-size" src="img/gallery/moon5.jpg" alt="moon"/>
-       <img class="img-size" src="img/gallery/moon6.jpg" alt="moon"/>
-    </section>
+      <img class="img-size" src="img/gallery/boat.jpg" alt="moon" onclick="onClick(this)"/>
+       <img class="img-size" src="img/gallery/moon.jpg" alt="moon" onclick="onClick(this)"/> 
+       <img class="img-size" src="img/gallery/moon1.jpg" alt="moon" onclick="onClick(this)"/>
+       <img class="img-size" src="img/gallery/moon2.jpg" alt="moon" onclick="onClick(this)"/>
+       <img class="img-size" id="moon3" src="img/gallery/moon3.jpg" alt="moon" onclick="onClick(this)"/> 
+       <img class="img-size" src="img/gallery/moon4.jpg" alt="moon" onclick="onClick(this)"/>
+       <img class="img-size" src="img/gallery/moon5.jpg" alt="moon" onclick="onClick(this)"/>
+       <img class="img-size" src="img/gallery/moon6.jpg" alt="moon" onclick="onClick(this)"/>
+    </div>
     
     
     <section id="comments">
@@ -70,6 +70,11 @@
     
      </div>    
     </form>
+    
+    
+    <div id="modal01" onclick="this.style.display='none'">
+    <img class="modal-content" id="img01"> 
+    </div>
     <script src="main.js" ></script>
 </body>
 

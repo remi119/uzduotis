@@ -5,7 +5,13 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -22,12 +28,8 @@ function showSlides(n) {
 }
 
 
-// atidaryti naujame lange 
-var modal = document.getElementById("image");
-var img = document.getElementsByClassName("img-show");
-var modalImg = document.getElementsByClassName("img-size");
-img.onclick = function(){
-    location.href='index.html';
-    modal.show.getImageData = this.src;
-    modalImg.src = this.src;
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("p-text").src = element.src;
+  document.getElementById("modal01").style.display = "block";
 }
