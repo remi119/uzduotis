@@ -41,57 +41,218 @@
         <button class="send-btn">UPLOAD</button>
     </div>
     </form>
+    <div id="gallery">
     
-    <section id="gallery">
+    <div id="div1" style="display:block"><div>
     
      <div class="row">
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/boat.jpg" alt="Boat" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/boat.jpg" alt="Boat" onclick="onClick(this);currentSlide(1)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" onclick="onClick(this)" />
+          <img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" onclick="onClick(this);currentSlide(2)" />
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-         <img class="img-show" src="/img/gallery/moon1.jpg" alt="Moon2" onclick="onClick(this)"/>
+         <img class="img-show" src="/img/gallery/moon1.jpg" alt="Moon2" onclick="onClick(this);currentSlide(3)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon2.jpg" alt="Moon2" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/moon2.jpg" alt="Moon2" onclick="onClick(this);currentSlide(4)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon3.jpg" alt="Boat" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/moon3.jpg" alt="Boat" onclick="onClick(this);currentSlide(5)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">HLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon4.jpg" alt="Moon" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/moon4.jpg" alt="Moon" onclick="onClick(this);currentSlide(6)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon5.jpg" alt="Moon1" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/moon5.jpg" alt="Moon1" onclick="onClick(this);currentSlide(7)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="column-gallery">
-          <img class="img-show" src="/img/gallery/moon6.jpg" alt="Moon2" onclick="onClick(this)"/>
+          <img class="img-show" src="/img/gallery/moon6.jpg" alt="Moon2" onclick="onClick(this);currentSlide(8)"/>
         <h3>ImageName</h3>
         <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
-     </section>
+    <div class="border"></div>
+    <div class="buttons">
+         <button id="next" class="blu-btn" onclick = "replace('div1','div3')">◄</button>
+         <a class="active">1</a> <a onclick = "replace('div1','div2')">2</a> <a onclick = "replace('div1','div3')">3</a>
+      <button id="prev" class="blu-btn" onclick = "replace('div1','div2')">►</button>
+     </div>
+</div></div>
+      
+      
+       
+    <div id="div2" style="display:none">
+    <div>
+    
+     <div class="row">
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/boat.jpg" alt="Boat" onclick="onClick(this);currentSlide(9)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" onclick="onClick(this);currentSlide(10)" />
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+         <img class="img-show" src="/img/gallery/moon1.jpg" alt="Moon2" onclick="onClick(this);currentSlide(11)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon2.jpg" alt="Moon2" onclick="onClick(this);currentSlide(12)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon3.jpg" alt="Boat" onclick="onClick(this);currentSlide(13)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">HLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon4.jpg" alt="Moon" onclick="onClick(this);currentSlide(14)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon5.jpg" alt="Moon1" onclick="onClick(this);currentSlide(15)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon6.jpg" alt="Moon2" onclick="onClick(this);currentSlide(16)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="border"></div>
+    <div class="buttons">
+         <button id="next" class="blu-btn" onclick = "replace('div2','div1')">◄</button>
+         <a onclick = "replace('div2','div1')">1</a> <a class="active">2</a> <a onclick = "replace('div2','div3')">3</a>
+      <button id="prev" class="blu-btn" onclick = "replace('div2','div3')">►</button>
+     </div>
+</div>
+    </div>
+          
+          
+          
+          
+     <div id="div3" style="display:none">
+     <div>
+     <div class="row">
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/boat.jpg" alt="Boat" onclick="onClick(this);currentSlide(17)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" onclick="onClick(this);currentSlide(18)" />
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+         <img class="img-show" src="/img/gallery/moon1.jpg" alt="Moon2" onclick="onClick(this);currentSlide(19)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon2.jpg" alt="Moon2" onclick="onClick(this);currentSlide(20)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon3.jpg" alt="Boat" onclick="onClick(this);currentSlide(21)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">HLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon4.jpg" alt="Moon" onclick="onClick(this);currentSlide(22)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon5.jpg" alt="Moon1" onclick="onClick(this);currentSlide(23)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column-gallery">
+          <img class="img-show" src="/img/gallery/moon.jpg" alt="Moon2" onclick="onClick(this);currentSlide(24)"/>
+        <h3>ImageName</h3>
+        <p class="gallery-p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="border"></div>
+    <div class="buttons">
+         <button id="next" class="blu-btn" onclick = "replace('div3','div2')">◄</button>
+         <a onclick = "replace('div3','div1')">1</a> <a onclick = "replace('div3','div2')">2</a> <a class="active">3</a>
+      <button id="prev" class="blu-btn" onclick = "replace('div3','div1')">►</button>
+     </div>
+     </div>
+     </div>
      
-     <div id="modal01" onclick="this.style.display='none'">
-    <img class="modal-content" id="img01">
-    <div id="p-text"></div> 
     </div>
+ 
+     <div id="modal01">
+     <img class="modal-content" id="img01" />
+     <div class="btn-wrap">
+     <span class="close-btn" onclick="closeBtn()">&times;</span>
+    <button class="module-prev" onclick="clickas(-1)">◄</button>
+      <button class="module-next" onclick="clickas(1)">►</button>
+      </div>
+    <form id="form">
+     <div class="name-email" id="module-form">
+       <section id="comments">
+     <h3 class="h3-comments">Comments:</h3>
+     
+      <div class="container">
+           <img src="img/boy.jpg" alt="boy" class="img-comments" />
+               <h5 class="name">Jonas Jonaitis</h5>
+               <p class="comment"> sed do eiusmod tempor incididunt</p>
+        </div>
+      <br> 
+           <div>
+            <img src="img/girl.jpg" alt="boy" class="img-comments" />
+               <h5 class="name">Gintare Gintaryte</h5>
+               <p class="comment">Lorem ipsum dolor sit amet, consectetur </p>
+      </div>  
+    </section>
+        <div class="column">
+            <label style="color: white;">Name</label>
+            <input type="text" placeholder="Alex" />  
+        </div>
+        <div class="column2">
+            <label style="color: white;">Email</label>
+            <input type="email"/>
+        </div>
+        
+        <label class="comment-label"  style="color: white;">Comment:</label>
+    <textarea cols="60" name="comment" form="usrform" placeholder="Alex"></textarea>
+    
+    <button class="send-btn">SEND</button>
+   
+    
+     </div>    
+    </form> 
+    </div>
+  
+   
     
     <script src="main.js" ></script>
 </body>

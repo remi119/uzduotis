@@ -25,6 +25,7 @@ h1 {
     margin: 0 auto;
     
 }
+
 .img-size {
     height: 250px;
     width: 100%;
@@ -218,6 +219,7 @@ textarea {
     width: 100%;
     padding: 0;
     margin:  0;
+    display: block;
 }
 .gallery-p-text {
     color: gray;
@@ -250,6 +252,291 @@ textarea {
     width: 80%;
     max-width: 860px;
 }
+#module-form {
+    height: 550px;
+    width: 460px;
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+#module-form #comments {
+   margin-top: -30px;
+    color: white;
+}
+.border {
+    border-bottom: 1px solid lightgray;
+    width: 452px;
+    margin: auto;
+}
+.buttons {
+    padding: 40px;
+    width: 200px;
+    margin: 0 auto;
+}
+.buttons a {
+    
+    display: inline-block;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+.blu-btn {
+    background: white;
+    color: #04b1f9;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+    
+}
+.active {
+    color: white !important;
+    background-color: #04b1f9;
+    border: 2px solid #04b1f9 !important;
+}
+.btn-wrap {
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.module-next, .module-prev {
+    background-color: white;
+    position: absolute;
+    font-size: 20px;
+    right: 30%;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.module-prev {
+     left: 30%;
+}
+.close-btn {
+    color: white;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0 12px;
+    position: fixed;
+    top: 20px;
+    right: 10%;
+    cursor: pointer;
+}
 
 
 
+@media only screen and (max-width: 414px) {
+ 
+    body {
+        padding: 5px;
+    }
+    .head-text {
+        width: 370px;
+    }
+    #upload-form {
+       width: 370px;
+    }
+    
+    input {
+        max-width: 370px;
+    }
+    
+    textarea {
+        max-width: 370px;
+    }
+    .file-select {
+        max-width: 370px;
+    }
+    .send-btn {
+        margin-right: 20px
+    }
+    .column-gallery {
+        float: left;
+        width: 50%;
+    }
+    .row {
+        width: 414px;
+        
+    }
+    .column-gallery img {
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        cursor: pointer;
+
+    }
+    .gallery-p-text {
+        height: 116px;
+        width: 170px;
+  
+    }
+    #image {
+        max-width: 370px;
+        
+    }
+    #comments {
+        max-width: 370px;
+    }
+    #form {
+        max-width: 370px;
+    }
+    #form input {
+        width: 100%;
+    }
+    .next1 {
+    margin-left: 300px;
+    }
+    #module-form{
+        max-width: 350px;
+    }
+    #module-form textarea{
+        max-width: 350px;
+    }
+    .modal-content {
+        width: 95%;
+    }
+    .module-next{
+        right: 10px;
+    } 
+    .module-prev {
+        left: 10px;
+    }
+    .btn-wrap {
+        max-width: 90%;
+
+}
+}
+@media only screen and (min-width: 415px) and (max-width: 738px) {
+ 
+
+    body {
+        padding: 5px;
+    }
+    .head-text {
+        width: 370px;
+    }
+    #upload-form {
+       width: 370px;
+    }
+    
+    input {
+        max-width: 370px;
+    }
+    
+    textarea {
+        max-width: 370px;
+    }
+    .file-select {
+        max-width: 370px;
+    }
+    .send-btn {
+        margin-right: 20px
+    }
+    .column-gallery {
+        float: left;
+        width: 50%;
+    }
+    .row {
+        width: 414px;
+        
+    }
+    .column-gallery img {
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        cursor: pointer;
+
+    }
+    .gallery-p-text {
+        height: 116px;
+        width: 170px;
+  
+    }
+    #image {
+        max-width: 370px;
+        
+    }
+    #comments {
+        max-width: 370px;
+    }
+    #form {
+        max-width: 370px;
+    }
+    #form input {
+        width: 100%;
+    }
+    .next1 {
+    margin-left: 300px;
+    }
+    #module-form{
+        max-width: 350px;
+    }
+    #module-form textarea{
+        max-width: 350px;
+    }
+    .modal-content {
+        width: 95%;
+    }
+    .module-next{
+        right: 10px;
+    } 
+    .module-prev {
+        left: 10px;
+    }
+    .btn-wrap {
+        max-width: 90%;
+
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 739px) and (max-width: 1024px) {
+ 
+
+
+    body {
+        padding: 50px;
+    }
+   
+    .column-gallery {
+        float: left;
+        width: 33%;
+    }
+    .row {
+        width: 700px;
+        
+    }
+    .column-gallery img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        cursor: pointer;
+
+    }
+    .gallery-p-text {
+        height: 116px;
+        width: 200px;
+  
+    }
+    #image {
+        max-width: 700px;
+        
+    }
+
+    .next1 {
+    margin-left: 630px;
+    }   
+     
+}
